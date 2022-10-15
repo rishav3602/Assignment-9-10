@@ -4,9 +4,13 @@ Q1. Find the largest number from the given list, use for loop.
 numbers = [12, 75, 150, 180, 145, 525, 50]
 '''
 
-numbers = [12, 75, 150, 180, 145, 525, 50]
     
-# Can't be able to solve this problem please discuss in next class 
+numbers = [12, 75, 150, 180, 145, 525, 50]
+bigger = 0
+for i in range(len(numbers)):
+    if numbers[i] > bigger:
+        bigger = numbers[i]
+print(bigger)
 
 
 """
